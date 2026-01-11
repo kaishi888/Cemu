@@ -256,7 +256,7 @@ jobs:
         hdiutil convert ./bin/tmp.dmg -format UDZO -o bin/Cemu.dmg
         rm bin/tmp.dmg
               
-    - name: Upload artifact
+    - name: Upload artifact 1
       uses: actions/upload-artifact@v4
       with:
         name: cemu-bin-macos-x64
